@@ -29,11 +29,13 @@ gulp.task('less', function () {
 ```css
 /*some css/less/etc */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*some css/less/etc */
 ```
 
 ### release:
 
 ```css
+/*some css/less/etc */
 /* cyrillic */
 @font-face {
   font-family: 'Lobster';
@@ -43,6 +45,7 @@ gulp.task('less', function () {
   src: url(/static/fonts/neILzCirqoswsqX9zoamM5Ez.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/*some css/less/etc */
 ```
 
 - and the font-family file will be saved to `/static/fonts/neILzCirqoswsqX9zoamM5Ez.woff2` after the task finish
